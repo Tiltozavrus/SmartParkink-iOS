@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41CE17DA274A8A85006E52E4 /* SmartParkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE17D9274A8A85006E52E4 /* SmartParkingApp.swift */; };
+		41CE17DC274A8A85006E52E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE17DB274A8A85006E52E4 /* ContentView.swift */; };
+		41CE17DE274A8A85006E52E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41CE17DD274A8A85006E52E4 /* Assets.xcassets */; };
+		41CE17E1274A8A85006E52E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41CE17E0274A8A85006E52E4 /* Preview Assets.xcassets */; };
+		41CE17E3274A8A85006E52E4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE17E2274A8A85006E52E4 /* Persistence.swift */; };
+		41CE17E6274A8A85006E52E4 /* SmartParking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41CE17E4274A8A85006E52E4 /* SmartParking.xcdatamodeld */; };
+		41CE17F1274A8A86006E52E4 /* SmartParkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE17F0274A8A86006E52E4 /* SmartParkingTests.swift */; };
+		41CE17FC274A8A86006E52E4 /* SmartParkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE17FB274A8A86006E52E4 /* SmartParkingUITests.swift */; };
+		41CE180E274A8C3A006E52E4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE180D274A8C3A006E52E4 /* LoadingView.swift */; };
+		41CE181A274A8EFC006E52E4 /* LoadingLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE1819274A8EFC006E52E4 /* LoadingLine.swift */; };
+		41D8FDF4274BAE7300B6EE7C /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8FDF3274BAE7300B6EE7C /* StartPage.swift */; };
+		41D8FDFD274BAEF100B6EE7C /* RegestationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8FDFC274BAEF100B6EE7C /* RegestationView.swift */; };
+		41D8FE06274BB0CE00B6EE7C /* Comfortaa-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41D8FE05274BB0CE00B6EE7C /* Comfortaa-VariableFont_wght.ttf */; };
+		41D8FE0C274BB48D00B6EE7C /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 41D8FE0B274BB48D00B6EE7C /* iPhoneNumberField */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41CE17ED274A8A86006E52E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41CE17CE274A8A85006E52E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41CE17D5274A8A85006E52E4;
+			remoteInfo = SmartParking;
+		};
+		41CE17F8274A8A86006E52E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41CE17CE274A8A85006E52E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41CE17D5274A8A85006E52E4;
+			remoteInfo = SmartParking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41CE17D6274A8A85006E52E4 /* SmartParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CE17D9274A8A85006E52E4 /* SmartParkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartParkingApp.swift; sourceTree = "<group>"; };
+		41CE17DB274A8A85006E52E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41CE17DD274A8A85006E52E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41CE17E0274A8A85006E52E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41CE17E2274A8A85006E52E4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		41CE17E5274A8A85006E52E4 /* SmartParking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartParking.xcdatamodel; sourceTree = "<group>"; };
+		41CE17E7274A8A86006E52E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41CE17EC274A8A86006E52E4 /* SmartParkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartParkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CE17F0274A8A86006E52E4 /* SmartParkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartParkingTests.swift; sourceTree = "<group>"; };
+		41CE17F2274A8A86006E52E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41CE17F7274A8A86006E52E4 /* SmartParkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartParkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CE17FB274A8A86006E52E4 /* SmartParkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartParkingUITests.swift; sourceTree = "<group>"; };
+		41CE17FD274A8A86006E52E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41CE180D274A8C3A006E52E4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		41CE1819274A8EFC006E52E4 /* LoadingLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingLine.swift; sourceTree = "<group>"; };
+		41D8FDF3274BAE7300B6EE7C /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
+		41D8FDFC274BAEF100B6EE7C /* RegestationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegestationView.swift; sourceTree = "<group>"; };
+		41D8FE05274BB0CE00B6EE7C /* Comfortaa-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41CE17D3274A8A85006E52E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D8FE0C274BB48D00B6EE7C /* iPhoneNumberField in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CE17E9274A8A86006E52E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CE17F4274A8A86006E52E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41CE17CD274A8A85006E52E4 = {
+			isa = PBXGroup;
+			children = (
+				41CE17D8274A8A85006E52E4 /* SmartParking */,
+				41CE17EF274A8A86006E52E4 /* SmartParkingTests */,
+				41CE17FA274A8A86006E52E4 /* SmartParkingUITests */,
+				41CE17D7274A8A85006E52E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41CE17D7274A8A85006E52E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41CE17D6274A8A85006E52E4 /* SmartParking.app */,
+				41CE17EC274A8A86006E52E4 /* SmartParkingTests.xctest */,
+				41CE17F7274A8A86006E52E4 /* SmartParkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41CE17D8274A8A85006E52E4 /* SmartParking */ = {
+			isa = PBXGroup;
+			children = (
+				41D8FE04274BB08000B6EE7C /* fonts */,
+				41CE180C274A8BFB006E52E4 /* UI */,
+				41CE17D9274A8A85006E52E4 /* SmartParkingApp.swift */,
+				41CE17DB274A8A85006E52E4 /* ContentView.swift */,
+				41CE17DD274A8A85006E52E4 /* Assets.xcassets */,
+				41CE17E2274A8A85006E52E4 /* Persistence.swift */,
+				41CE17E7274A8A86006E52E4 /* Info.plist */,
+				41CE17E4274A8A85006E52E4 /* SmartParking.xcdatamodeld */,
+				41CE17DF274A8A85006E52E4 /* Preview Content */,
+			);
+			path = SmartParking;
+			sourceTree = "<group>";
+		};
+		41CE17DF274A8A85006E52E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41CE17E0274A8A85006E52E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41CE17EF274A8A86006E52E4 /* SmartParkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				41CE17F0274A8A86006E52E4 /* SmartParkingTests.swift */,
+				41CE17F2274A8A86006E52E4 /* Info.plist */,
+			);
+			path = SmartParkingTests;
+			sourceTree = "<group>";
+		};
+		41CE17FA274A8A86006E52E4 /* SmartParkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41CE17FB274A8A86006E52E4 /* SmartParkingUITests.swift */,
+				41CE17FD274A8A86006E52E4 /* Info.plist */,
+			);
+			path = SmartParkingUITests;
+			sourceTree = "<group>";
+		};
+		41CE180C274A8BFB006E52E4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				41D8FDF2274BAE6400B6EE7C /* Pages */,
+				41CE1815274A8EA4006E52E4 /* Loading */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		41CE1815274A8EA4006E52E4 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				41CE180D274A8C3A006E52E4 /* LoadingView.swift */,
+				41CE1819274A8EFC006E52E4 /* LoadingLine.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		41D8FDF2274BAE6400B6EE7C /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				41D8FDFB274BAEE000B6EE7C /* Regestation */,
+				41D8FDF3274BAE7300B6EE7C /* StartPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		41D8FDFB274BAEE000B6EE7C /* Regestation */ = {
+			isa = PBXGroup;
+			children = (
+				41D8FDFC274BAEF100B6EE7C /* RegestationView.swift */,
+			);
+			path = Regestation;
+			sourceTree = "<group>";
+		};
+		41D8FE04274BB08000B6EE7C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				41D8FE05274BB0CE00B6EE7C /* Comfortaa-VariableFont_wght.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41CE17D5274A8A85006E52E4 /* SmartParking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41CE1800274A8A86006E52E4 /* Build configuration list for PBXNativeTarget "SmartParking" */;
+			buildPhases = (
+				41CE17D2274A8A85006E52E4 /* Sources */,
+				41CE17D3274A8A85006E52E4 /* Frameworks */,
+				41CE17D4274A8A85006E52E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartParking;
+			packageProductDependencies = (
+				41D8FE0B274BB48D00B6EE7C /* iPhoneNumberField */,
+			);
+			productName = SmartParking;
+			productReference = 41CE17D6274A8A85006E52E4 /* SmartParking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41CE17EB274A8A86006E52E4 /* SmartParkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41CE1803274A8A86006E52E4 /* Build configuration list for PBXNativeTarget "SmartParkingTests" */;
+			buildPhases = (
+				41CE17E8274A8A86006E52E4 /* Sources */,
+				41CE17E9274A8A86006E52E4 /* Frameworks */,
+				41CE17EA274A8A86006E52E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41CE17EE274A8A86006E52E4 /* PBXTargetDependency */,
+			);
+			name = SmartParkingTests;
+			productName = SmartParkingTests;
+			productReference = 41CE17EC274A8A86006E52E4 /* SmartParkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41CE17F6274A8A86006E52E4 /* SmartParkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41CE1806274A8A86006E52E4 /* Build configuration list for PBXNativeTarget "SmartParkingUITests" */;
+			buildPhases = (
+				41CE17F3274A8A86006E52E4 /* Sources */,
+				41CE17F4274A8A86006E52E4 /* Frameworks */,
+				41CE17F5274A8A86006E52E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41CE17F9274A8A86006E52E4 /* PBXTargetDependency */,
+			);
+			name = SmartParkingUITests;
+			productName = SmartParkingUITests;
+			productReference = 41CE17F7274A8A86006E52E4 /* SmartParkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41CE17CE274A8A85006E52E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					41CE17D5274A8A85006E52E4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					41CE17EB274A8A86006E52E4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 41CE17D5274A8A85006E52E4;
+					};
+					41CE17F6274A8A86006E52E4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 41CE17D5274A8A85006E52E4;
+					};
+				};
+			};
+			buildConfigurationList = 41CE17D1274A8A85006E52E4 /* Build configuration list for PBXProject "SmartParking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41CE17CD274A8A85006E52E4;
+			packageReferences = (
+				41D8FE0A274BB48D00B6EE7C /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
+			productRefGroup = 41CE17D7274A8A85006E52E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41CE17D5274A8A85006E52E4 /* SmartParking */,
+				41CE17EB274A8A86006E52E4 /* SmartParkingTests */,
+				41CE17F6274A8A86006E52E4 /* SmartParkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41CE17D4274A8A85006E52E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CE17E1274A8A85006E52E4 /* Preview Assets.xcassets in Resources */,
+				41D8FE06274BB0CE00B6EE7C /* Comfortaa-VariableFont_wght.ttf in Resources */,
+				41CE17DE274A8A85006E52E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CE17EA274A8A86006E52E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CE17F5274A8A86006E52E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41CE17D2274A8A85006E52E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D8FDFD274BAEF100B6EE7C /* RegestationView.swift in Sources */,
+				41CE181A274A8EFC006E52E4 /* LoadingLine.swift in Sources */,
+				41CE17E6274A8A85006E52E4 /* SmartParking.xcdatamodeld in Sources */,
+				41D8FDF4274BAE7300B6EE7C /* StartPage.swift in Sources */,
+				41CE17E3274A8A85006E52E4 /* Persistence.swift in Sources */,
+				41CE17DC274A8A85006E52E4 /* ContentView.swift in Sources */,
+				41CE180E274A8C3A006E52E4 /* LoadingView.swift in Sources */,
+				41CE17DA274A8A85006E52E4 /* SmartParkingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CE17E8274A8A86006E52E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CE17F1274A8A86006E52E4 /* SmartParkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CE17F3274A8A86006E52E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CE17FC274A8A86006E52E4 /* SmartParkingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41CE17EE274A8A86006E52E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41CE17D5274A8A85006E52E4 /* SmartParking */;
+			targetProxy = 41CE17ED274A8A86006E52E4 /* PBXContainerItemProxy */;
+		};
+		41CE17F9274A8A86006E52E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41CE17D5274A8A85006E52E4 /* SmartParking */;
+			targetProxy = 41CE17F8274A8A86006E52E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41CE17FE274A8A86006E52E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41CE17FF274A8A86006E52E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41CE1801274A8A86006E52E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartParking/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NWTW64Y33;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmartParking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-B1t.SmartParking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41CE1802274A8A86006E52E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartParking/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NWTW64Y33;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmartParking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-B1t.SmartParking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41CE1804274A8A86006E52E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NWTW64Y33;
+				INFOPLIST_FILE = SmartParkingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-B1t.SmartParkingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartParking.app/SmartParking";
+			};
+			name = Debug;
+		};
+		41CE1805274A8A86006E52E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NWTW64Y33;
+				INFOPLIST_FILE = SmartParkingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-B1t.SmartParkingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartParking.app/SmartParking";
+			};
+			name = Release;
+		};
+		41CE1807274A8A86006E52E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NWTW64Y33;
+				INFOPLIST_FILE = SmartParkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-B1t.SmartParkingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartParking;
+			};
+			name = Debug;
+		};
+		41CE1808274A8A86006E52E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NWTW64Y33;
+				INFOPLIST_FILE = SmartParkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-B1t.SmartParkingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartParking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41CE17D1274A8A85006E52E4 /* Build configuration list for PBXProject "SmartParking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41CE17FE274A8A86006E52E4 /* Debug */,
+				41CE17FF274A8A86006E52E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41CE1800274A8A86006E52E4 /* Build configuration list for PBXNativeTarget "SmartParking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41CE1801274A8A86006E52E4 /* Debug */,
+				41CE1802274A8A86006E52E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41CE1803274A8A86006E52E4 /* Build configuration list for PBXNativeTarget "SmartParkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41CE1804274A8A86006E52E4 /* Debug */,
+				41CE1805274A8A86006E52E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41CE1806274A8A86006E52E4 /* Build configuration list for PBXNativeTarget "SmartParkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41CE1807274A8A86006E52E4 /* Debug */,
+				41CE1808274A8A86006E52E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41D8FE0A274BB48D00B6EE7C /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41D8FE0B274BB48D00B6EE7C /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41D8FE0A274BB48D00B6EE7C /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		41CE17E4274A8A85006E52E4 /* SmartParking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41CE17E5274A8A85006E52E4 /* SmartParking.xcdatamodel */,
+			);
+			currentVersion = 41CE17E5274A8A85006E52E4 /* SmartParking.xcdatamodel */;
+			path = SmartParking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 41CE17CE274A8A85006E52E4 /* Project object */;
+}
