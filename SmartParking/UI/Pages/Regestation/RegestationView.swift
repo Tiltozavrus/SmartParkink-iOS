@@ -90,51 +90,63 @@ struct PhoneNumberView: View {
     }
 }
 
-struct RegestationView: View {
-    @State private var phoneNubmer: String = ""
-    @State private var userName: String = ""
-    @State var isEditing: Bool = false
+struct RegestationView: View, Header {
+    @State var isConfirmView = false
+    var header: some View {
+        Text("Регистрация")
+            .padding()
+            .font(.custom("Comfortaa-VariableFont_wght", size: 40))
+            .foregroundColor(.SPBlue)
+    }
+    
+    @EnvironmentObject var authObserved: AuthObserved
+    
     var body: some View {
         VStack {
             HStack {
-                Text("Регистрация")
-                    .padding()
-                    .font(.custom("Comfortaa-VariableFont_wght", size: 40))
-                    .foregroundColor(.SPBlue)
-                    
+                header
                 Spacer()
             }
             VStack(spacing: 15) {
-                PhoneNumberView(phoneNubmer: $phoneNubmer)
+                PhoneNumberView(phoneNubmer: $authObserved.phoneNumber)
                 .padding()
                 .clipShape(Rectangle())
                 .border(Color.SPBlue, width: 3)
                 
-                TextField("Имя Фамилия", text: $userName)
+                TextField("Имя Фамилия", text: $authObserved.userData)
                     .foregroundColor(Color.SPBlue)
                     .padding()
                     .clipShape(Rectangle())
                     .border(Color.SPBlue, width: 3)
-                
+                    .keyboardType(.phonePad)
                 
                 Button(
                     action: {
-                        
+                        if authObserved.registr() {
+                            isConfirmView.toggle()
+                        }
                     },
                     label: {
                         Text("Дальше")
-                            .foregroundColor(.white)
+                        .padding()
+                        .foregroundColor(.white)
+                        .frame(minWidth: 100, idealWidth: 200, maxWidth: .infinity)
+                        .foregroundColor(.white)
+                        .font(Font.headline.weight(.bold))
+                        .background(Color.SPBlue)
+                        .cornerRadius(6)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 6)
+                                .stroke(Color.SPBlue, lineWidth: 4)
+                        )
                     }
                 )
-                .padding()
-                .frame(minWidth: 100, idealWidth: 200, maxWidth: .infinity)
-                .foregroundColor(.white)
-                .font(Font.headline.weight(.bold))
-                .background(Color.SPBlue)
-                .cornerRadius(6)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 6)
-                        .stroke(Color.SPBlue, lineWidth: 4)
+                
+                NavigationLink(
+                    "",
+                    destination: ConfirmView(header: self, btnText: "Регистрация")
+                        .environmentObject(authObserved),
+                    isActive: $isConfirmView
                 )
                     
             }
@@ -146,6 +158,11 @@ struct RegestationView: View {
 
 struct RegestationView_Previews: PreviewProvider {
     static var previews: some View {
-        RegestationView()
+        NavigationView {
+            RegestationView()
+                .navigationBarTitle("Регистрация")
+                .navigationBarHidden(true)
+                .environmentObject(AuthObserved())
+        }
     }
 }

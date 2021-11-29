@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4143F91D27527E8900772528 /* AuthObserved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143F91C27527E8900772528 /* AuthObserved.swift */; };
+		4143F925275297F000772528 /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143F924275297F000772528 /* ConfirmView.swift */; };
+		41468FD3274E5B330008B07F /* RegestrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41468FD2274E5B330008B07F /* RegestrationPage.swift */; };
+		416934F72754DB86005349EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416934F62754DB86005349EB /* HomeView.swift */; };
+		416934FC2754E34E005349EB /* LocationImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416934FB2754E34E005349EB /* LocationImage.swift */; };
+		4181680C2753A067003096E4 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4181680B2753A067003096E4 /* SignInView.swift */; };
+		418168122753A2F3003096E4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418168112753A2F3003096E4 /* MainView.swift */; };
 		41CE17DA274A8A85006E52E4 /* SmartParkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE17D9274A8A85006E52E4 /* SmartParkingApp.swift */; };
 		41CE17DC274A8A85006E52E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE17DB274A8A85006E52E4 /* ContentView.swift */; };
 		41CE17DE274A8A85006E52E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41CE17DD274A8A85006E52E4 /* Assets.xcassets */; };
@@ -41,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4143F91C27527E8900772528 /* AuthObserved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthObserved.swift; sourceTree = "<group>"; };
+		4143F924275297F000772528 /* ConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmView.swift; sourceTree = "<group>"; };
+		41468FD2274E5B330008B07F /* RegestrationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegestrationPage.swift; sourceTree = "<group>"; };
+		416934F62754DB86005349EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		416934FB2754E34E005349EB /* LocationImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationImage.swift; sourceTree = "<group>"; };
+		4181680B2753A067003096E4 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		418168112753A2F3003096E4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		41CE17D6274A8A85006E52E4 /* SmartParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41CE17D9274A8A85006E52E4 /* SmartParkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartParkingApp.swift; sourceTree = "<group>"; };
 		41CE17DB274A8A85006E52E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +102,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4143F91A27527E6B00772528 /* Observed */ = {
+			isa = PBXGroup;
+			children = (
+				4143F91C27527E8900772528 /* AuthObserved.swift */,
+			);
+			path = Observed;
+			sourceTree = "<group>";
+		};
+		418168102753A2D8003096E4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				418168112753A2F3003096E4 /* MainView.swift */,
+				416934F62754DB86005349EB /* HomeView.swift */,
+				416934FB2754E34E005349EB /* LocationImage.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		41CE17CD274A8A85006E52E4 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +143,7 @@
 		41CE17D8274A8A85006E52E4 /* SmartParking */ = {
 			isa = PBXGroup;
 			children = (
+				4143F91A27527E6B00772528 /* Observed */,
 				41D8FE04274BB08000B6EE7C /* fonts */,
 				41CE180C274A8BFB006E52E4 /* UI */,
 				41CE17D9274A8A85006E52E4 /* SmartParkingApp.swift */,
@@ -171,6 +204,7 @@
 		41D8FDF2274BAE6400B6EE7C /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				418168102753A2D8003096E4 /* Main */,
 				41D8FDFB274BAEE000B6EE7C /* Regestation */,
 				41D8FDF3274BAE7300B6EE7C /* StartPage.swift */,
 			);
@@ -181,6 +215,9 @@
 			isa = PBXGroup;
 			children = (
 				41D8FDFC274BAEF100B6EE7C /* RegestationView.swift */,
+				41468FD2274E5B330008B07F /* RegestrationPage.swift */,
+				4143F924275297F000772528 /* ConfirmView.swift */,
+				4181680B2753A067003096E4 /* SignInView.swift */,
 			);
 			path = Regestation;
 			sourceTree = "<group>";
@@ -330,11 +367,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D8FDFD274BAEF100B6EE7C /* RegestationView.swift in Sources */,
+				416934F72754DB86005349EB /* HomeView.swift in Sources */,
+				418168122753A2F3003096E4 /* MainView.swift in Sources */,
+				41468FD3274E5B330008B07F /* RegestrationPage.swift in Sources */,
 				41CE181A274A8EFC006E52E4 /* LoadingLine.swift in Sources */,
+				4143F91D27527E8900772528 /* AuthObserved.swift in Sources */,
 				41CE17E6274A8A85006E52E4 /* SmartParking.xcdatamodeld in Sources */,
 				41D8FDF4274BAE7300B6EE7C /* StartPage.swift in Sources */,
+				416934FC2754E34E005349EB /* LocationImage.swift in Sources */,
+				4181680C2753A067003096E4 /* SignInView.swift in Sources */,
 				41CE17E3274A8A85006E52E4 /* Persistence.swift in Sources */,
 				41CE17DC274A8A85006E52E4 /* ContentView.swift in Sources */,
+				4143F925275297F000772528 /* ConfirmView.swift in Sources */,
 				41CE180E274A8C3A006E52E4 /* LoadingView.swift in Sources */,
 				41CE17DA274A8A85006E52E4 /* SmartParkingApp.swift in Sources */,
 			);

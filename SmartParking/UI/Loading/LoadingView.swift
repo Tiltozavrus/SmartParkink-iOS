@@ -32,8 +32,39 @@ struct LoadingView: View {
     }
 }
 
+struct LoadingWrapper<Content>: View where Content: View {
+    @Binding var isLoading: Bool
+    
+    var content: () -> Content
+    
+    var body: some View {
+        GeometryReader {
+            geom in
+            ZStack(alignment: .center) {
+                self.content()
+                    .zIndex(-1)
+                    .position(x: geom.frame(in: .local).midX, y: geom.frame(in: .local).midY)
+                
+                if isLoading {
+                    // TODO add color scheme base on theme
+                    Color.white.zIndex(1)
+                    LoadingView()
+                        .zIndex(2)
+                        .position(x: geom.frame(in: .local).midX, y: geom.frame(in: .local).midY)
+                }
+            }
+        }
+
+    }
+    
+}
+
 struct LoadingView_Previews: PreviewProvider {
+    @State static var isLoading = false;
+    @State static var text = "Hello"
     static var previews: some View {
-        LoadingView(withAnimation: false)
+        LoadingWrapper(isLoading: $isLoading) {
+            Color.red
+        }
     }
 }
