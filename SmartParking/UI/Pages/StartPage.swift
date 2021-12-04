@@ -13,6 +13,7 @@ struct StartPage: View {
     var body: some View {
         if authObserver.isLogin {
             MainView()
+                .environmentObject(authObserver)
         } else {
             LoadingWrapper(isLoading: $authObserver.isLoading) {
                 NotLoginView().environmentObject(authObserver)

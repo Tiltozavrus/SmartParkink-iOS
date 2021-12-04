@@ -12,8 +12,15 @@
 		41468FD3274E5B330008B07F /* RegestrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41468FD2274E5B330008B07F /* RegestrationPage.swift */; };
 		416934F72754DB86005349EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416934F62754DB86005349EB /* HomeView.swift */; };
 		416934FC2754E34E005349EB /* LocationImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416934FB2754E34E005349EB /* LocationImage.swift */; };
+		416935012754EF81005349EB /* ParkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416935002754EF81005349EB /* ParkingView.swift */; };
 		4181680C2753A067003096E4 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4181680B2753A067003096E4 /* SignInView.swift */; };
 		418168122753A2F3003096E4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418168112753A2F3003096E4 /* MainView.swift */; };
+		4188195D2756092800D7A56C /* ParkBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4188195C2756092800D7A56C /* ParkBooking.swift */; };
+		41881962275616C800D7A56C /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41881961275616C800D7A56C /* BookingView.swift */; };
+		4188196727561B8700D7A56C /* CurrentBookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4188196627561B8700D7A56C /* CurrentBookingView.swift */; };
+		419C04DD275559A9008CACC1 /* ParkingLocationObserved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C04DC275559A9008CACC1 /* ParkingLocationObserved.swift */; };
+		419C04E527555E33008CACC1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C04E427555E33008CACC1 /* ProfileView.swift */; };
+		419C04EA27555E93008CACC1 /* UserObserved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C04E927555E93008CACC1 /* UserObserved.swift */; };
 		41CE17DA274A8A85006E52E4 /* SmartParkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE17D9274A8A85006E52E4 /* SmartParkingApp.swift */; };
 		41CE17DC274A8A85006E52E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE17DB274A8A85006E52E4 /* ContentView.swift */; };
 		41CE17DE274A8A85006E52E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41CE17DD274A8A85006E52E4 /* Assets.xcassets */; };
@@ -53,8 +60,15 @@
 		41468FD2274E5B330008B07F /* RegestrationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegestrationPage.swift; sourceTree = "<group>"; };
 		416934F62754DB86005349EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		416934FB2754E34E005349EB /* LocationImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationImage.swift; sourceTree = "<group>"; };
+		416935002754EF81005349EB /* ParkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingView.swift; sourceTree = "<group>"; };
 		4181680B2753A067003096E4 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		418168112753A2F3003096E4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4188195C2756092800D7A56C /* ParkBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkBooking.swift; sourceTree = "<group>"; };
+		41881961275616C800D7A56C /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		4188196627561B8700D7A56C /* CurrentBookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentBookingView.swift; sourceTree = "<group>"; };
+		419C04DC275559A9008CACC1 /* ParkingLocationObserved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLocationObserved.swift; sourceTree = "<group>"; };
+		419C04E427555E33008CACC1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		419C04E927555E93008CACC1 /* UserObserved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObserved.swift; sourceTree = "<group>"; };
 		41CE17D6274A8A85006E52E4 /* SmartParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41CE17D9274A8A85006E52E4 /* SmartParkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartParkingApp.swift; sourceTree = "<group>"; };
 		41CE17DB274A8A85006E52E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,7 +119,9 @@
 		4143F91A27527E6B00772528 /* Observed */ = {
 			isa = PBXGroup;
 			children = (
+				419C04DA2755598E008CACC1 /* Park */,
 				4143F91C27527E8900772528 /* AuthObserved.swift */,
+				419C04E927555E93008CACC1 /* UserObserved.swift */,
 			);
 			path = Observed;
 			sourceTree = "<group>";
@@ -116,8 +132,21 @@
 				418168112753A2F3003096E4 /* MainView.swift */,
 				416934F62754DB86005349EB /* HomeView.swift */,
 				416934FB2754E34E005349EB /* LocationImage.swift */,
+				416935002754EF81005349EB /* ParkingView.swift */,
+				419C04E427555E33008CACC1 /* ProfileView.swift */,
+				41881961275616C800D7A56C /* BookingView.swift */,
+				4188196627561B8700D7A56C /* CurrentBookingView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		419C04DA2755598E008CACC1 /* Park */ = {
+			isa = PBXGroup;
+			children = (
+				419C04DC275559A9008CACC1 /* ParkingLocationObserved.swift */,
+				4188195C2756092800D7A56C /* ParkBooking.swift */,
+			);
+			path = Park;
 			sourceTree = "<group>";
 		};
 		41CE17CD274A8A85006E52E4 = {
@@ -369,13 +398,20 @@
 				41D8FDFD274BAEF100B6EE7C /* RegestationView.swift in Sources */,
 				416934F72754DB86005349EB /* HomeView.swift in Sources */,
 				418168122753A2F3003096E4 /* MainView.swift in Sources */,
+				416935012754EF81005349EB /* ParkingView.swift in Sources */,
 				41468FD3274E5B330008B07F /* RegestrationPage.swift in Sources */,
 				41CE181A274A8EFC006E52E4 /* LoadingLine.swift in Sources */,
 				4143F91D27527E8900772528 /* AuthObserved.swift in Sources */,
 				41CE17E6274A8A85006E52E4 /* SmartParking.xcdatamodeld in Sources */,
 				41D8FDF4274BAE7300B6EE7C /* StartPage.swift in Sources */,
+				41881962275616C800D7A56C /* BookingView.swift in Sources */,
 				416934FC2754E34E005349EB /* LocationImage.swift in Sources */,
+				419C04E527555E33008CACC1 /* ProfileView.swift in Sources */,
+				4188196727561B8700D7A56C /* CurrentBookingView.swift in Sources */,
+				4188195D2756092800D7A56C /* ParkBooking.swift in Sources */,
+				419C04EA27555E93008CACC1 /* UserObserved.swift in Sources */,
 				4181680C2753A067003096E4 /* SignInView.swift in Sources */,
+				419C04DD275559A9008CACC1 /* ParkingLocationObserved.swift in Sources */,
 				41CE17E3274A8A85006E52E4 /* Persistence.swift in Sources */,
 				41CE17DC274A8A85006E52E4 /* ContentView.swift in Sources */,
 				4143F925275297F000772528 /* ConfirmView.swift in Sources */,

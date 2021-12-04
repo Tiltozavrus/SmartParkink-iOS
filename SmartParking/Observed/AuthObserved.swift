@@ -12,6 +12,7 @@ class AuthObserved: ObservableObject {
     @Published var phoneNumber: String = ""
     @Published var userData: String = ""
     @Published var isLoading: Bool = false
+    @Published var userID: String = ""
     
     /// return true is request for get code succesfully sended
     func getCode() -> Bool {
@@ -38,6 +39,7 @@ class AuthObserved: ObservableObject {
         }
         if(code == "0000") {
             self.isLogin = true
+            self.userID = "mock_user_id"
             return true
         }
         return false

@@ -46,6 +46,11 @@ extension Color {
 }
 
 struct MainView: View {
+    @EnvironmentObject var authObserved: AuthObserved
+    @ObservedObject var userObserved: UserObserved = UserObserved()
+    @ObservedObject var parkingBook: ParkBookingObservable = ParkBookingObservable()
+    @ObservedObject var parkLocations: ParkingLocationsObserved = ParkingLocationsObserved()
+    
     @State private var selectedTab: Tab = .home
     
     init() {
@@ -56,18 +61,27 @@ struct MainView: View {
     var body: some View {
         NavigationView {
             VStack {
+                ZStack {
                     switch selectedTab {
                     case .home:
                         HomeView()
+                            .environmentObject(userObserved)
+                            .environmentObject(parkingBook)
+                            .environmentObject(parkLocations)
                     case .profile:
-                        Text("Profile")
+                        ProfileView()
+                            .environmentObject(userObserved)
                     case .map:
-                        Text("map")
+                        CurrentBookingView()
+                            .environmentObject(parkingBook)
+                            .environmentObject(userObserved)
                     case .settings:
                         Text("settings")
                     case .qrCode:
-                        Text("qr code")
+                        BookingView()
+                            .environmentObject(parkingBook)
                     }
+                }
                 
                 Spacer()
                 HStack {
@@ -102,12 +116,17 @@ struct MainView: View {
                 }
             }
             .navigationBarTitleDisplayMode(.inline)
+        }.onAppear {
+            userObserved.getUser(id: authObserved.userID)
         }
     }
 }
 
 struct MainView_Previews: PreviewProvider {
+    @ObservedObject static var auth = AuthObserved()
     static var previews: some View {
-        MainView()
+        MainView().environmentObject(auth).onAppear {
+            auth.verifyCode(code: "0000")
+        }
     }
 }

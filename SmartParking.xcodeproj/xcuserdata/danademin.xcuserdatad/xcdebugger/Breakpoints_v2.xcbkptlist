@@ -7,8 +7,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "93C18295-9C6A-4E8E-ACAE-DF865A6E6814"
-            shouldBeEnabled = "Yes"
+            uuid = "CEA83678-0654-479F-B46E-79AEB9120E88"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SmartParking/UI/Pages/Regestation/SignInView.swift"
@@ -18,6 +18,38 @@
             endingLineNumber = "22"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "CEA83678-0654-479F-B46E-79AEB9120E88 - 804735d8eb32c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SmartParking.SignInView.header : some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in SmartParking.SignInView.body.getter : some"
+                  moduleName = "SmartParking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danademin/Desktop/Project/Swift/SmartParking/SmartParking/UI/Pages/Regestation/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "369">
+               </Location>
+               <Location
+                  uuid = "CEA83678-0654-479F-B46E-79AEB9120E88 - e2ec378d46e1720b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SmartParking.SignInView.header : some&gt;&gt;.0, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SmartParking.SignInView.header : some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in SmartParking.SignInView.body.getter : some"
+                  moduleName = "SmartParking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danademin/Desktop/Project/Swift/SmartParking/SmartParking/UI/Pages/Regestation/SignInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

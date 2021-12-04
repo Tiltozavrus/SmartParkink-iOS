@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct LocationImage: View {
-    @State var circleColor: Color = .blue
+    init(workLoad: Workload = .small) {
+        switch workLoad {
+        case .small:
+            self.circleColor = .green
+        case .medium:
+            self.circleColor = .blue
+        case .large:
+            self.circleColor = .red
+        }
+    }
+    var circleColor: Color
     
     var body: some View {
         VStack(spacing: 0) {
             Image("location")
                 .renderingMode(.template)
                 .foregroundColor(.SPBlue)
+                
             
             Circle()
                 .frame(width: 10, height: 10)
