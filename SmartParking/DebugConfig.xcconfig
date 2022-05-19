@@ -1,0 +1,10 @@
+//
+//  DebugConfig.xcconfig
+//  SmartParking
+//
+//  Created by Даня Демин on 18.05.2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+identy_base_url=localhost:3000/

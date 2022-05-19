@@ -29,10 +29,9 @@ struct SignInView: View, Header {
                     .padding()
                     .clipShape(Rectangle())
                     .border(Color.SPBlue, width: 3)
-                
                 Button(
                     action: {
-                        if authObserved.registr() {
+                        if authObserved.getCode() {
                             isConfirmView.toggle()
                         }
                     },

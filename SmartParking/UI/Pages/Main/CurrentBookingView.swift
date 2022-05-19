@@ -41,8 +41,8 @@ struct CurrentBookingView: View {
                     HStack(spacing: 10) {
                         Button(
                             action: {
-                                if let userId = userObserver.user?.id {
-                                    bookingObserver.cancelBook(userID: userId, parkID: park.location.id.uuidString)
+                                if let userId = userObserver.user?._id {
+                                    bookingObserver.cancelBook(userID: userId.intValue, parkID: park.location.id)
                                     cancelBtnClicked = false
                                 }
                             },
@@ -125,7 +125,7 @@ struct CurrentBookingView_Previews: PreviewProvider {
             .environmentObject(park)
             .environmentObject(UserObserved())
             .onAppear {
-                park.bookPlace(userID: "mock_user_id", parkId: "mock_id")
+                park.bookPlace(userID: 12, parkId: 12)
             }
     }
 }

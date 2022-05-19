@@ -8,7 +8,7 @@
 import Foundation
 
 struct User {
-    var id: String
+    var id: Int
     var phoneNumber: String
     var firstName: String
     var secondName: String
@@ -16,11 +16,21 @@ struct User {
 }
 
 class UserObserved: ObservableObject {
-    @Published var user: User?
+    @Published var user: GetUsersResp?
     
-    func getUser(id: String) {
-        if(id == "mock_user_id") {
-            user = User(id: "mock_user_id", phoneNumber: "9199138679", firstName: "Даниил", secondName: "Демин")
-        }
+    func getUser(id: Int) {
+        print("get user with id \(Decimal(id))")
+        AuthAPI.authController_1(
+            _id: Decimal(id),
+            completion: {
+                resp, err in
+                if let err = err {
+                    print(err)
+                    return
+                }
+                
+                self.user = resp
+            }
+        )
     }
 }

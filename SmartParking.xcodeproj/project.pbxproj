@@ -35,6 +35,47 @@
 		41D8FDFD274BAEF100B6EE7C /* RegestationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8FDFC274BAEF100B6EE7C /* RegestationView.swift */; };
 		41D8FE06274BB0CE00B6EE7C /* Comfortaa-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41D8FE05274BB0CE00B6EE7C /* Comfortaa-VariableFont_wght.ttf */; };
 		41D8FE0C274BB48D00B6EE7C /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 41D8FE0B274BB48D00B6EE7C /* iPhoneNumberField */; };
+		41EE448F283574B600F262C3 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4468283574B600F262C3 /* APIHelper.swift */; };
+		41EE4490283574B600F262C3 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4469283574B600F262C3 /* AlamofireImplementations.swift */; };
+		41EE4491283574B600F262C3 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE446A283574B600F262C3 /* JSONValue.swift */; };
+		41EE4492283574B600F262C3 /* ParkingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE446C283574B600F262C3 /* ParkingAPI.swift */; };
+		41EE4493283574B600F262C3 /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE446D283574B600F262C3 /* AuthAPI.swift */; };
+		41EE4494283574B600F262C3 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE446E283574B600F262C3 /* CodableHelper.swift */; };
+		41EE4495283574B600F262C3 /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE446F283574B600F262C3 /* JSONEncodableEncoding.swift */; };
+		41EE4496283574B600F262C3 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4470283574B600F262C3 /* APIs.swift */; };
+		41EE4497283574B600F262C3 /* CreateReservePlaceReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4472283574B600F262C3 /* CreateReservePlaceReq.swift */; };
+		41EE4498283574B600F262C3 /* LoginUserDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4473283574B600F262C3 /* LoginUserDto.swift */; };
+		41EE4499283574B600F262C3 /* CreateAdminResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4474283574B600F262C3 /* CreateAdminResp.swift */; };
+		41EE449A283574B600F262C3 /* GetParksResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4475283574B600F262C3 /* GetParksResp.swift */; };
+		41EE449B283574B600F262C3 /* UpdateAdminDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4476283574B600F262C3 /* UpdateAdminDto.swift */; };
+		41EE449C283574B600F262C3 /* LoginAdminDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4477283574B600F262C3 /* LoginAdminDto.swift */; };
+		41EE449D283574B600F262C3 /* CheckTokenDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4478283574B600F262C3 /* CheckTokenDto.swift */; };
+		41EE449E283574B600F262C3 /* CreateParkResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4479283574B600F262C3 /* CreateParkResp.swift */; };
+		41EE449F283574B600F262C3 /* GetUsersResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE447A283574B600F262C3 /* GetUsersResp.swift */; };
+		41EE44A0283574B600F262C3 /* CreateParkReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE447B283574B600F262C3 /* CreateParkReq.swift */; };
+		41EE44A1283574B600F262C3 /* GetAdminResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE447C283574B600F262C3 /* GetAdminResp.swift */; };
+		41EE44A2283574B600F262C3 /* CreateParkPlaceReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE447D283574B600F262C3 /* CreateParkPlaceReq.swift */; };
+		41EE44A3283574B600F262C3 /* RefreshTokenDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE447E283574B600F262C3 /* RefreshTokenDto.swift */; };
+		41EE44A4283574B600F262C3 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE447F283574B600F262C3 /* Point.swift */; };
+		41EE44A5283574B600F262C3 /* GetParkResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4480283574B600F262C3 /* GetParkResp.swift */; };
+		41EE44A6283574B600F262C3 /* GetParkPlaceResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4481283574B600F262C3 /* GetParkPlaceResp.swift */; };
+		41EE44A7283574B600F262C3 /* CreateTokenResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4482283574B600F262C3 /* CreateTokenResp.swift */; };
+		41EE44A8283574B600F262C3 /* CreateAdminDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4483283574B600F262C3 /* CreateAdminDto.swift */; };
+		41EE44A9283574B600F262C3 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4484283574B600F262C3 /* Edges.swift */; };
+		41EE44AA283574B600F262C3 /* AllOfGetParkPlaceRespCoords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4485283574B600F262C3 /* AllOfGetParkPlaceRespCoords.swift */; };
+		41EE44AB283574B600F262C3 /* UserCreateResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4486283574B600F262C3 /* UserCreateResp.swift */; };
+		41EE44AC283574B600F262C3 /* UpdateUserDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4487283574B600F262C3 /* UpdateUserDto.swift */; };
+		41EE44AD283574B600F262C3 /* GetParkPlaceInfoResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4488283574B600F262C3 /* GetParkPlaceInfoResp.swift */; };
+		41EE44AE283574B600F262C3 /* GetReservedPlaceResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE4489283574B600F262C3 /* GetReservedPlaceResp.swift */; };
+		41EE44AF283574B600F262C3 /* CreateUserDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE448A283574B600F262C3 /* CreateUserDto.swift */; };
+		41EE44B0283574B600F262C3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE448B283574B600F262C3 /* Extensions.swift */; };
+		41EE44B1283574B700F262C3 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE448C283574B600F262C3 /* JSONEncodingHelper.swift */; };
+		41EE44B2283574B700F262C3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE448D283574B600F262C3 /* Models.swift */; };
+		41EE44B3283574B700F262C3 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE448E283574B600F262C3 /* Configuration.swift */; };
+		41EE44B928357A7900F262C3 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE44B828357A7900F262C3 /* Auth.swift */; };
+		41EE44C228357EF100F262C3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 41EE44C128357EF100F262C3 /* Alamofire */; };
+		41EE44DA2836489800F262C3 /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = 41EE44D92836489800F262C3 /* JWTDecode */; };
+		41EE44E128364B2500F262C3 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE44E028364B2500F262C3 /* JWT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +129,46 @@
 		41D8FDF3274BAE7300B6EE7C /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
 		41D8FDFC274BAEF100B6EE7C /* RegestationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegestationView.swift; sourceTree = "<group>"; };
 		41D8FE05274BB0CE00B6EE7C /* Comfortaa-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		41EE441228356AB300F262C3 /* DebugConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugConfig.xcconfig; sourceTree = "<group>"; };
+		41EE4468283574B600F262C3 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		41EE4469283574B600F262C3 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
+		41EE446A283574B600F262C3 /* JSONValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
+		41EE446C283574B600F262C3 /* ParkingAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingAPI.swift; sourceTree = "<group>"; };
+		41EE446D283574B600F262C3 /* AuthAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		41EE446E283574B600F262C3 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
+		41EE446F283574B600F262C3 /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
+		41EE4470283574B600F262C3 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		41EE4472283574B600F262C3 /* CreateReservePlaceReq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateReservePlaceReq.swift; sourceTree = "<group>"; };
+		41EE4473283574B600F262C3 /* LoginUserDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUserDto.swift; sourceTree = "<group>"; };
+		41EE4474283574B600F262C3 /* CreateAdminResp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAdminResp.swift; sourceTree = "<group>"; };
+		41EE4475283574B600F262C3 /* GetParksResp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetParksResp.swift; sourceTree = "<group>"; };
+		41EE4476283574B600F262C3 /* UpdateAdminDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateAdminDto.swift; sourceTree = "<group>"; };
+		41EE4477283574B600F262C3 /* LoginAdminDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAdminDto.swift; sourceTree = "<group>"; };
+		41EE4478283574B600F262C3 /* CheckTokenDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckTokenDto.swift; sourceTree = "<group>"; };
+		41EE4479283574B600F262C3 /* CreateParkResp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateParkResp.swift; sourceTree = "<group>"; };
+		41EE447A283574B600F262C3 /* GetUsersResp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUsersResp.swift; sourceTree = "<group>"; };
+		41EE447B283574B600F262C3 /* CreateParkReq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateParkReq.swift; sourceTree = "<group>"; };
+		41EE447C283574B600F262C3 /* GetAdminResp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAdminResp.swift; sourceTree = "<group>"; };
+		41EE447D283574B600F262C3 /* CreateParkPlaceReq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateParkPlaceReq.swift; sourceTree = "<group>"; };
+		41EE447E283574B600F262C3 /* RefreshTokenDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshTokenDto.swift; sourceTree = "<group>"; };
+		41EE447F283574B600F262C3 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		41EE4480283574B600F262C3 /* GetParkResp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetParkResp.swift; sourceTree = "<group>"; };
+		41EE4481283574B600F262C3 /* GetParkPlaceResp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetParkPlaceResp.swift; sourceTree = "<group>"; };
+		41EE4482283574B600F262C3 /* CreateTokenResp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTokenResp.swift; sourceTree = "<group>"; };
+		41EE4483283574B600F262C3 /* CreateAdminDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAdminDto.swift; sourceTree = "<group>"; };
+		41EE4484283574B600F262C3 /* Edges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edges.swift; sourceTree = "<group>"; };
+		41EE4485283574B600F262C3 /* AllOfGetParkPlaceRespCoords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllOfGetParkPlaceRespCoords.swift; sourceTree = "<group>"; };
+		41EE4486283574B600F262C3 /* UserCreateResp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCreateResp.swift; sourceTree = "<group>"; };
+		41EE4487283574B600F262C3 /* UpdateUserDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateUserDto.swift; sourceTree = "<group>"; };
+		41EE4488283574B600F262C3 /* GetParkPlaceInfoResp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetParkPlaceInfoResp.swift; sourceTree = "<group>"; };
+		41EE4489283574B600F262C3 /* GetReservedPlaceResp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetReservedPlaceResp.swift; sourceTree = "<group>"; };
+		41EE448A283574B600F262C3 /* CreateUserDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserDto.swift; sourceTree = "<group>"; };
+		41EE448B283574B600F262C3 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		41EE448C283574B600F262C3 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
+		41EE448D283574B600F262C3 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		41EE448E283574B600F262C3 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		41EE44B828357A7900F262C3 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		41EE44E028364B2500F262C3 /* JWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D8FE0C274BB48D00B6EE7C /* iPhoneNumberField in Frameworks */,
+				41EE44C228357EF100F262C3 /* Alamofire in Frameworks */,
+				41EE44DA2836489800F262C3 /* JWTDecode in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +255,9 @@
 		41CE17D8274A8A85006E52E4 /* SmartParking */ = {
 			isa = PBXGroup;
 			children = (
+				41EE44DE28364B1500F262C3 /* Extensions */,
+				41EE44B728357A6D00F262C3 /* Auth */,
+				41EE441328356D4200F262C3 /* SwagGen */,
 				4143F91A27527E6B00772528 /* Observed */,
 				41D8FE04274BB08000B6EE7C /* fonts */,
 				41CE180C274A8BFB006E52E4 /* UI */,
@@ -182,6 +268,7 @@
 				41CE17E7274A8A86006E52E4 /* Info.plist */,
 				41CE17E4274A8A85006E52E4 /* SmartParking.xcdatamodeld */,
 				41CE17DF274A8A85006E52E4 /* Preview Content */,
+				41EE441228356AB300F262C3 /* DebugConfig.xcconfig */,
 			);
 			path = SmartParking;
 			sourceTree = "<group>";
@@ -259,6 +346,98 @@
 			path = fonts;
 			sourceTree = "<group>";
 		};
+		41EE441328356D4200F262C3 /* SwagGen */ = {
+			isa = PBXGroup;
+			children = (
+				41EE4467283574B600F262C3 /* Swaggers */,
+			);
+			path = SwagGen;
+			sourceTree = "<group>";
+		};
+		41EE4467283574B600F262C3 /* Swaggers */ = {
+			isa = PBXGroup;
+			children = (
+				41EE4468283574B600F262C3 /* APIHelper.swift */,
+				41EE4469283574B600F262C3 /* AlamofireImplementations.swift */,
+				41EE446A283574B600F262C3 /* JSONValue.swift */,
+				41EE446B283574B600F262C3 /* APIs */,
+				41EE446E283574B600F262C3 /* CodableHelper.swift */,
+				41EE446F283574B600F262C3 /* JSONEncodableEncoding.swift */,
+				41EE4470283574B600F262C3 /* APIs.swift */,
+				41EE4471283574B600F262C3 /* Models */,
+				41EE448B283574B600F262C3 /* Extensions.swift */,
+				41EE448C283574B600F262C3 /* JSONEncodingHelper.swift */,
+				41EE448D283574B600F262C3 /* Models.swift */,
+				41EE448E283574B600F262C3 /* Configuration.swift */,
+			);
+			path = Swaggers;
+			sourceTree = "<group>";
+		};
+		41EE446B283574B600F262C3 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				41EE446C283574B600F262C3 /* ParkingAPI.swift */,
+				41EE446D283574B600F262C3 /* AuthAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		41EE4471283574B600F262C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41EE4472283574B600F262C3 /* CreateReservePlaceReq.swift */,
+				41EE4473283574B600F262C3 /* LoginUserDto.swift */,
+				41EE4474283574B600F262C3 /* CreateAdminResp.swift */,
+				41EE4475283574B600F262C3 /* GetParksResp.swift */,
+				41EE4476283574B600F262C3 /* UpdateAdminDto.swift */,
+				41EE4477283574B600F262C3 /* LoginAdminDto.swift */,
+				41EE4478283574B600F262C3 /* CheckTokenDto.swift */,
+				41EE4479283574B600F262C3 /* CreateParkResp.swift */,
+				41EE447A283574B600F262C3 /* GetUsersResp.swift */,
+				41EE447B283574B600F262C3 /* CreateParkReq.swift */,
+				41EE447C283574B600F262C3 /* GetAdminResp.swift */,
+				41EE447D283574B600F262C3 /* CreateParkPlaceReq.swift */,
+				41EE447E283574B600F262C3 /* RefreshTokenDto.swift */,
+				41EE447F283574B600F262C3 /* Point.swift */,
+				41EE4480283574B600F262C3 /* GetParkResp.swift */,
+				41EE4481283574B600F262C3 /* GetParkPlaceResp.swift */,
+				41EE4482283574B600F262C3 /* CreateTokenResp.swift */,
+				41EE4483283574B600F262C3 /* CreateAdminDto.swift */,
+				41EE4484283574B600F262C3 /* Edges.swift */,
+				41EE4485283574B600F262C3 /* AllOfGetParkPlaceRespCoords.swift */,
+				41EE4486283574B600F262C3 /* UserCreateResp.swift */,
+				41EE4487283574B600F262C3 /* UpdateUserDto.swift */,
+				41EE4488283574B600F262C3 /* GetParkPlaceInfoResp.swift */,
+				41EE4489283574B600F262C3 /* GetReservedPlaceResp.swift */,
+				41EE448A283574B600F262C3 /* CreateUserDto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41EE44B728357A6D00F262C3 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				41EE44B828357A7900F262C3 /* Auth.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		41EE44DE28364B1500F262C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				41EE44DF28364B1C00F262C3 /* JWT */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		41EE44DF28364B1C00F262C3 /* JWT */ = {
+			isa = PBXGroup;
+			children = (
+				41EE44E028364B2500F262C3 /* JWT.swift */,
+			);
+			path = JWT;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -277,6 +456,8 @@
 			name = SmartParking;
 			packageProductDependencies = (
 				41D8FE0B274BB48D00B6EE7C /* iPhoneNumberField */,
+				41EE44C128357EF100F262C3 /* Alamofire */,
+				41EE44D92836489800F262C3 /* JWTDecode */,
 			);
 			productName = SmartParking;
 			productReference = 41CE17D6274A8A85006E52E4 /* SmartParking.app */;
@@ -351,6 +532,8 @@
 			mainGroup = 41CE17CD274A8A85006E52E4;
 			packageReferences = (
 				41D8FE0A274BB48D00B6EE7C /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+				41EE44C028357EF100F262C3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				41EE44D82836489800F262C3 /* XCRemoteSwiftPackageReference "JWTDecode" */,
 			);
 			productRefGroup = 41CE17D7274A8A85006E52E4 /* Products */;
 			projectDirPath = "";
@@ -395,27 +578,66 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EE44A2283574B600F262C3 /* CreateParkPlaceReq.swift in Sources */,
+				41EE44E128364B2500F262C3 /* JWT.swift in Sources */,
 				41D8FDFD274BAEF100B6EE7C /* RegestationView.swift in Sources */,
 				416934F72754DB86005349EB /* HomeView.swift in Sources */,
+				41EE44A9283574B600F262C3 /* Edges.swift in Sources */,
 				418168122753A2F3003096E4 /* MainView.swift in Sources */,
 				416935012754EF81005349EB /* ParkingView.swift in Sources */,
+				41EE4499283574B600F262C3 /* CreateAdminResp.swift in Sources */,
+				41EE4495283574B600F262C3 /* JSONEncodableEncoding.swift in Sources */,
+				41EE449A283574B600F262C3 /* GetParksResp.swift in Sources */,
+				41EE449E283574B600F262C3 /* CreateParkResp.swift in Sources */,
+				41EE449B283574B600F262C3 /* UpdateAdminDto.swift in Sources */,
+				41EE44A5283574B600F262C3 /* GetParkResp.swift in Sources */,
+				41EE448F283574B600F262C3 /* APIHelper.swift in Sources */,
 				41468FD3274E5B330008B07F /* RegestrationPage.swift in Sources */,
 				41CE181A274A8EFC006E52E4 /* LoadingLine.swift in Sources */,
+				41EE449C283574B600F262C3 /* LoginAdminDto.swift in Sources */,
+				41EE44AE283574B600F262C3 /* GetReservedPlaceResp.swift in Sources */,
 				4143F91D27527E8900772528 /* AuthObserved.swift in Sources */,
+				41EE4497283574B600F262C3 /* CreateReservePlaceReq.swift in Sources */,
+				41EE449F283574B600F262C3 /* GetUsersResp.swift in Sources */,
+				41EE44AA283574B600F262C3 /* AllOfGetParkPlaceRespCoords.swift in Sources */,
+				41EE4494283574B600F262C3 /* CodableHelper.swift in Sources */,
 				41CE17E6274A8A85006E52E4 /* SmartParking.xcdatamodeld in Sources */,
+				41EE4498283574B600F262C3 /* LoginUserDto.swift in Sources */,
 				41D8FDF4274BAE7300B6EE7C /* StartPage.swift in Sources */,
 				41881962275616C800D7A56C /* BookingView.swift in Sources */,
+				41EE44A3283574B600F262C3 /* RefreshTokenDto.swift in Sources */,
+				41EE44B0283574B600F262C3 /* Extensions.swift in Sources */,
+				41EE44A1283574B600F262C3 /* GetAdminResp.swift in Sources */,
 				416934FC2754E34E005349EB /* LocationImage.swift in Sources */,
 				419C04E527555E33008CACC1 /* ProfileView.swift in Sources */,
 				4188196727561B8700D7A56C /* CurrentBookingView.swift in Sources */,
+				41EE44A0283574B600F262C3 /* CreateParkReq.swift in Sources */,
+				41EE44AC283574B600F262C3 /* UpdateUserDto.swift in Sources */,
+				41EE4491283574B600F262C3 /* JSONValue.swift in Sources */,
+				41EE44B928357A7900F262C3 /* Auth.swift in Sources */,
+				41EE44B1283574B700F262C3 /* JSONEncodingHelper.swift in Sources */,
+				41EE44B3283574B700F262C3 /* Configuration.swift in Sources */,
+				41EE449D283574B600F262C3 /* CheckTokenDto.swift in Sources */,
 				4188195D2756092800D7A56C /* ParkBooking.swift in Sources */,
+				41EE44AB283574B600F262C3 /* UserCreateResp.swift in Sources */,
+				41EE4493283574B600F262C3 /* AuthAPI.swift in Sources */,
 				419C04EA27555E93008CACC1 /* UserObserved.swift in Sources */,
+				41EE44AF283574B600F262C3 /* CreateUserDto.swift in Sources */,
+				41EE44A7283574B600F262C3 /* CreateTokenResp.swift in Sources */,
+				41EE44A8283574B600F262C3 /* CreateAdminDto.swift in Sources */,
 				4181680C2753A067003096E4 /* SignInView.swift in Sources */,
 				419C04DD275559A9008CACC1 /* ParkingLocationObserved.swift in Sources */,
+				41EE44A6283574B600F262C3 /* GetParkPlaceResp.swift in Sources */,
+				41EE4490283574B600F262C3 /* AlamofireImplementations.swift in Sources */,
 				41CE17E3274A8A85006E52E4 /* Persistence.swift in Sources */,
 				41CE17DC274A8A85006E52E4 /* ContentView.swift in Sources */,
 				4143F925275297F000772528 /* ConfirmView.swift in Sources */,
+				41EE44AD283574B600F262C3 /* GetParkPlaceInfoResp.swift in Sources */,
+				41EE4492283574B600F262C3 /* ParkingAPI.swift in Sources */,
+				41EE44A4283574B600F262C3 /* Point.swift in Sources */,
 				41CE180E274A8C3A006E52E4 /* LoadingView.swift in Sources */,
+				41EE44B2283574B700F262C3 /* Models.swift in Sources */,
+				41EE4496283574B600F262C3 /* APIs.swift in Sources */,
 				41CE17DA274A8A85006E52E4 /* SmartParkingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -746,6 +968,22 @@
 				minimumVersion = 0.6.1;
 			};
 		};
+		41EE44C028357EF100F262C3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+		41EE44D82836489800F262C3 /* XCRemoteSwiftPackageReference "JWTDecode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/JWTDecode.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -753,6 +991,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 41D8FE0A274BB48D00B6EE7C /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
 			productName = iPhoneNumberField;
+		};
+		41EE44C128357EF100F262C3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41EE44C028357EF100F262C3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		41EE44D92836489800F262C3 /* JWTDecode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41EE44D82836489800F262C3 /* XCRemoteSwiftPackageReference "JWTDecode" */;
+			productName = JWTDecode;
 		};
 /* End XCSwiftPackageProductDependency section */
 

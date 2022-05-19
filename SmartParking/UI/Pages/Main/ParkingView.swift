@@ -17,6 +17,8 @@ struct ParkingView: View {
     @Environment(\.presentationMode) var presentationMode
     @EnvironmentObject var parkBookingObservable: ParkBookingObservable
     @EnvironmentObject var userObservabe: UserObserved
+    @EnvironmentObject var locationsObservable: ParkingLocationsObserved
+    
     var park: Location
     
     var body: some View {
@@ -24,8 +26,8 @@ struct ParkingView: View {
             ParkingPlaceView(park: park)
             Button(
                 action: {
-                    if let userId = userObservabe.user?.id {
-                        parkBookingObservable.bookPlace(userID: userId, location: park)
+                    if let userId = userObservabe.user?._id {
+                        parkBookingObservable.bookPlace(userID: userId.intValue, location: park)
                         presentationMode.wrappedValue.dismiss()
                     }
                 }, label: {
@@ -42,7 +44,9 @@ struct ParkingView: View {
                             .stroke(Color.SPBlue, lineWidth: 4)
                     )
                 }
-            ).padding()
+            )
+            .padding()
+            .disabled(parkBookingObservable.parkBooking != nil)
             
             Spacer()
         }
@@ -87,7 +91,13 @@ func workLoadToText(workLoad: Workload) -> String {
 struct ParkingView_Previews: PreviewProvider {
     static var previews: some View {
         ParkingView(
-            park: Location(id: UUID(), workLoad: .small, coordinate: CLLocationCoordinate2D(), addres: "Ул Ленина д 12")
-        ).environmentObject(ParkBookingObservable()).environmentObject(UserObserved())
+            park: Location(
+                id: 1,
+                workLoad: .small,
+                coordinate: CLLocationCoordinate2D(),
+                addres: "Ул Ленина д 12",
+                places: []
+            )
+        ).environmentObject(ParkBookingObservable()).environmentObject(UserObserved()).environmentObject(ParkingLocationsObserved())
     }
 }

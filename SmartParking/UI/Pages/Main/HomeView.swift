@@ -48,6 +48,7 @@ struct HomeView: View {
                         destination: ParkingView(park: location)
                             .environmentObject(userObservable)
                             .environmentObject(parkBookinObservable)
+                            .environmentObject(locationsObservable)
                     ) {
                         LocationImage(workLoad: location.workLoad)
                     }

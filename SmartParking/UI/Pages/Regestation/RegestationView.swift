@@ -50,7 +50,7 @@ struct PhoneTextFieldView: UIViewRepresentable {
         }
 
         func phoneNumberToFormat(phone: String) -> String {
-            let mask = "(xxx) xxx - xx - xx"
+            let mask = "(xxx) xxx xx xx"
             
             let numbers = phone.replacingOccurrences(of: "[^0-9]", with: "", options: .regularExpression)
                 var result = ""
@@ -84,7 +84,7 @@ struct PhoneNumberView: View {
         HStack {
             Text("+7")
                 .foregroundColor(Color.SPBlue)
-            PhoneTextFieldView(text: self.$phoneNubmer, placeholder: "(xxx) xxx - xx - xx")
+            PhoneTextFieldView(text: self.$phoneNubmer, placeholder: "(xxx) xxx xx xx")
                 .foregroundColor(Color.SPBlue)
         }
     }
